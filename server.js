@@ -13,6 +13,6 @@ MongoClient.connect(db.url, (err, client) => {
     }
     require('./app/routes')(app, client);
     app.listen(port, () => {
-        console.log("we re live on " + port); 
+        console.log("we re live on " + port);
     })
 })
